@@ -43,6 +43,14 @@ INSERT INTO owners VALUES (8, 'Maria', 'Escobito', '345 Maple St.', 'Madison', '
 INSERT INTO owners VALUES (9, 'David', 'Schroeder', '2749 Blackhawk Trail', 'Madison', '6085559435', 'owner1');
 INSERT INTO owners VALUES (10, 'Carlos', 'Estaban', '2335 Independence La.', 'Waunakee', '6085555487', 'owner1');
 
+
+INSERT INTO producttypes(id,name) VALUES (1,'Accessories');
+INSERT INTO producttypes(id,name) VALUES (2,'Food');
+
+INSERT INTO products(id,name,price,product_type_id) VALUES (1,'Wonderful dog collar', 17.25, 1);
+INSERT INTO products(id,name,price,product_type_id) VALUES (2,'Super Kitty Cookies', 50.0, 2);
+
+
 INSERT INTO pets(id,name,birth_date,type_id,owner_id) VALUES (1, 'Leo', '2010-09-07', 1, 1);
 INSERT INTO pets(id,name,birth_date,type_id,owner_id) VALUES (2, 'Basil', '2012-08-06', 6, 2);
 INSERT INTO pets(id,name,birth_date,type_id,owner_id) VALUES (3, 'Rosy', '2011-04-17', 2, 3);

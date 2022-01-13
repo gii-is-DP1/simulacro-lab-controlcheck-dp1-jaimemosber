@@ -23,9 +23,6 @@ public class Test5 {
         productServiceCanGetProducts();
     }
 
-
-    
-
     
     public void productServiceIsInjected()
     {
